@@ -14,6 +14,17 @@ namespace CallOfDutyStats
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            //var gamer = new Gamer()
+            //{
+            //    Kills = killObj,
+            //    Deaths = deathObj,
+            //    KdRatio = kdObj,
+            //    Rank = rankObj,
+            //    Headshots = headshotObj
+
+
+            //};
+           
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

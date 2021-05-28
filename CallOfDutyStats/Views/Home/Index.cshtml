@@ -3,6 +3,11 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Welcome! </h1>
+    <p>Let's find out your stats!</p>
+    <form asp-controller="WebAPI" asp-action="MakeGamer">
+        <label for="g-tag">Gamer-Tag:</label><br />
+        <input type="text" id="gtag" name="gtag" /><br />
+        <input type="submit" value="submit"/>
+    </form>
 </div>
